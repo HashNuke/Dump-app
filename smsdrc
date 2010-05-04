@@ -1,0 +1,45 @@
+# This is a sample Gammu SMSD configuration file. It's required for gammu-smsd,
+# see gammu-smsdrc(5) for documentation.
+
+[gammu]
+port = /dev/ttyACM0
+connection = at19200
+#synchronizetime = yes
+logfile = gammulog
+#logformat = textall
+use_locking = no
+
+# When uncomment this section and insert numbers here, smsd will process
+# incoming sms only from numbers written here (incoming sms from all other
+# numbers will be deleted)
+#[include_numbers]
+#number1 = 1234
+
+# When uncomment this section and insert numbers here, smsd will process
+# incoming sms from all numbers not written here (incoming sms from numbers
+# written here will be deleted). This is "black" list.
+# Note: after using "include_numbers" section this one will be ignored
+#[exclude_numbers]
+#number1 = 1234
+
+# General SMSD settings, see gammu-smsdrc(5) for detailed description.
+[smsd]
+service = MYSQL
+# PIN for SIM card
+#PIN = 1234
+logfile = smsdlog
+# Amount of information being logged, each bit mean one level
+debuglevel = 2
+#runonreceive = /some/script
+commtimeout = 30
+sendtimeout = 30
+
+# Ignoring broken SMSC
+#skipsmscnumber = +48602123456
+
+# Database backends congfiguration
+user = root
+password = runningchamp
+pc = localhost
+# pc can also contain port or socket path after colon (eg. localhost:/path/to/socket)
+database = dumpapp
