@@ -3,6 +3,27 @@
     margin: auto;
 }
 
+.startapp{
+    font-size: 200%;
+}
+
+.appintroname{
+    margin-top: 125px;
+    font-size: 500%;
+    color: #660000;
+}
+
+.dumpintro{
+    background: #660000;
+    font-weight: bold;
+    font-size: 110%;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
 .msgbox{
     margin-bottom: 10px;
     -webkit-border-radius: 5px;
@@ -22,3 +43,8 @@
     text-align: right;
 }
 
+.credits{
+    padding-top: 100px;
+    color: #339933;
+    font-weight: bold;
+}

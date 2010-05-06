@@ -534,3 +534,915 @@ Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:24:04) [GET
   [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
   [4;35;1mInbox Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
 Completed in 34ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:26:18) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:26:18) [GET]
+  [4;36;1mInbox Load (0.4ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.6ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 34ms (View: 9, DB: 6) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:27:17) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (7.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:27:18) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (9.0ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 140ms (View: 6, DB: 18) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:30:43) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 22ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (10.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:30:44) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 15) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:31:06) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:31:07) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:31:16) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:31:17) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 32ms (View: 8, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:31:57) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:31:58) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 35ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:32:15) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:32:16) [GET]
+  [4;36;1mInbox Load (0.4ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 34ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:32:29) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:32:30) [GET]
+  [4;36;1mInbox Load (0.6ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 28ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:32:50) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (10.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:32:51) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 14) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:32:55) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (5.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:32:56) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 34ms (View: 9, DB: 10) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:33:08) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (7.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:33:09) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 36ms (View: 9, DB: 12) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:33:18) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:33:19) [GET]
+  [4;36;1mInbox Load (0.4ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 34ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:33:24) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:33:26) [GET]
+  [4;36;1mInbox Load (0.4ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:33:32) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:33:33) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:37:52) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 19ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:37:53) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.7ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 39ms (View: 9, DB: 5) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:38:04) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:38:05) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (4.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:38:16) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 34ms (View: 9, DB: 9) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:38:30) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 21ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:38:45) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (4.5ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 8, DB: 5) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:38:58) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 22ms (View: 6, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:39:02) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:39:03) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:39:06) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:39:07) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:39:10) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:39:11) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:39:24) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 23ms (View: 7, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:39:29) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:39:30) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 32ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:39:39) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (13.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:39:40) [GET]
+  [4;36;1mInbox Load (4.0ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 38ms (View: 9, DB: 22) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:40:07) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:40:08) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:40:15) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:40:16) [GET]
+  [4;36;1mInbox Load (0.4ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:40:31) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 23ms (View: 7, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:40:44) [GET]
+  [4;36;1mInbox Load (0.2ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 21ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:40:57) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 21ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:41:10) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 22ms (View: 6, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:41:23) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 26ms (View: 10, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:41:36) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 22ms (View: 6, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:41:49) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 26ms (View: 8, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:42:03) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 23ms (View: 6, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:42:15) [GET]
+  [4;36;1mInbox Load (0.2ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 22ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:42:28) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 22ms (View: 6, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:42:43) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 23ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:42:56) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 21ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:43:09) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 22ms (View: 6, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:43:22) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 21ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:43:29) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:43:30) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 32ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:43:39) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:43:40) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (4.1ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 8, DB: 5) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:43:47) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:43:48) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 8, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:43:59) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 22ms (View: 6, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:44:12) [GET]
+  [4;36;1mInbox Load (0.6ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 26ms (View: 9, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:44:19) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:44:20) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 31ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:44:41) [GET]
+  [4;36;1mInbox Load (0.4ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 21ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:45:07) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 21ms (View: 6, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:45:33) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 25ms (View: 7, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:45:59) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 22ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:46:25) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 22ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:46:51) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 22ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:47:17) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 21ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:47:43) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 22ms (View: 6, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:48:09) [GET]
+  [4;36;1mInbox Load (0.2ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 25ms (View: 9, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:48:35) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 24ms (View: 7, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:49:01) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 23ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:49:27) [GET]
+  [4;36;1mInbox Load (0.2ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 21ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:49:53) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 21ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:50:19) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 21ms (View: 5, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:50:45) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 22ms (View: 6, DB: 3) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:50:54) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:50:55) [GET]
+  [4;36;1mInbox Load (0.6ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 5) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:51:03) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:51:04) [GET]
+  [4;36;1mInbox Load (0.4ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:51:29) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (7.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:51:30) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 31ms (View: 9, DB: 12) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:51:33) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:51:35) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.6ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 41ms (View: 10, DB: 5) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:51:35) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:51:36) [GET]
+  [4;36;1mInbox Load (0.4ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:51:37) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:51:38) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 32ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:51:56) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (11.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:51:57) [GET]
+  [4;36;1mInbox Load (2.5ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 36ms (View: 9, DB: 18) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:52:04) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:52:05) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:52:37) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:52:38) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 33ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:52:52) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 22ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:52:53) [GET]
+  [4;36;1mInbox Load (0.4ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 32ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:52:54) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:52:55) [GET]
+  [4;36;1mInbox Load (0.5ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 31ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#index (for 127.0.0.1 at 2010-05-06 15:52:56) [GET]
+Rendering template within layouts/application
+Rendering clouds/index
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CloudsController#fetchmsg (for 127.0.0.1 at 2010-05-06 15:52:57) [GET]
+  [4;36;1mInbox Load (0.3ms)[0m   [0;1mSELECT * FROM `inbox` [0m
+  [4;35;1mInbox Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `inbox`[0m
+Completed in 31ms (View: 9, DB: 4) | 200 OK [http://localhost/fetchmsg]

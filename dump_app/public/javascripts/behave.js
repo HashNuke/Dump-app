@@ -3,6 +3,18 @@
 
 var offlineHolder = new Array();
 
+$(document).ready(function(){
+    $(".dumpintro").hide();
+    $(".startapp").bind('click',function(){
+        fillUp();
+        fillNew();
+        $(".appintro").fadeOut('slow');
+        $(".dumpintro").fadeIn('slow');
+        var intervalID = window.setInterval(fillNew, 2000);
+    });
+    
+});
+
 function saveToLocal(data)
 {
     //window['localStorage'].setItem("offlineHolder",""+data);
@@ -127,3 +139,5 @@ function getFromLocal()
 
 fetchMsgs();
 fillUp();
+
+
