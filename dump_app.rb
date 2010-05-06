@@ -3,6 +3,7 @@ require 'rubygems'
 require 'sinatra'
 require 'active_record'
 require 'json'
+require 'erb'
 
 ### ActiveRecord db credentials ###
 
@@ -22,9 +23,7 @@ end
 ### Actions  ###
 
 get '/' do
-  @inbox = Inbox.all()
-  #Inbox.delete(1)
-  haml :index
+  erb :index
 end
 
 get '/fetchmsg' do
@@ -34,6 +33,7 @@ get '/fetchmsg' do
   total_json = []
   @msgs.each{ |msg|
     total_json.push({:id=>msg['ID'], :msg=>msg['TextDecoded'], :sender=>msg['SenderNumber']})
+    #msg.destroy
   }
   
   json_data = {:count=>total_json.length, :data=>total_json}
