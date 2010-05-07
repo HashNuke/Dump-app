@@ -15,18 +15,10 @@ $(document).ready(function(){
     
 });
 
-function saveToLocal(data)
-{
-    //window['localStorage'].setItem("offlineHolder",""+data);
-    offlineHolder = data;
-}
-
 function fillUp(){
-    console.log("fill up");
+    //console.log("fill up");
     var tempMsg = 0;
     
-    /*if(eval(window['localStorage'].getItem("offlineHolder")).length!=0 && window['localStorage'].getItem("offlineHolder")!="")
-    */
     if(getFromLocal().length!=0)
     {
         addFromHolder();
@@ -41,8 +33,6 @@ function fillUp(){
 function fillNew(){
     var tempMsg = 0;
     
-    /*if(eval(window['localStorage'].getItem("offlineHolder")).length!=0 && window['localStorage'].getItem("offlineHolder")!="")
-    */
     if(getFromLocal().length!=0)
     {
         addOne();
@@ -54,34 +44,29 @@ function fillNew(){
     }
 }
 
-
-
 function addFromHolder()
 {
     var tempStr = 0;
     var tempMsg = 0;
-    //console.log(window['localStorage'].getItem("offlineHolder"));
-    /*if(eval(window['localStorage'].getItem("offlineHolder")).length<5 && window['localStorage'].getItem("offlineHolder")!="") */
+    
     if(getFromLocal().length<5)
-            var tCount = getFromLocal().length;
-        else
-            var tCount = 5;
+        var tCount = getFromLocal().length;
+    else
+        var tCount = 5;
 
-        for(var i=0;i<tCount;i++)
-            {
-                tempMsg = getFromLocal().pop();
-                //saveToLocal(offlineHolder);
-                addBox(tempMsg.id,tempMsg.sender,tempMsg.msg);
-                i=i+1;
-            }
+    for(var i=0;i<tCount;i++)
+    {
+        tempMsg = getFromLocal().pop();
+        addBox(tempMsg.id,tempMsg.sender,tempMsg.msg);
+        i=i+1;
+    }
 }
 
 function addOne()
 {
     var tempStr = 0;
     var tempMsg = 0;
-    //console.log(window['localStorage'].getItem("offlineHolder"));
-    /*if(eval(window['localStorage'].getItem("offlineHolder")).length<5 && window['localStorage'].getItem("offlineHolder")!="") */
+
     if(getFromLocal().length>0)
     {
         tempMsg = getFromLocal().pop();
@@ -92,7 +77,7 @@ function addOne()
 function fetchMsgs()
 {
     var tempStr = new Array();
-    console.log("fetchMsgs");
+    //console.log("fetchMsgs");
     $.getJSON('/fetchmsg', function(data){
             if(data.count!=0)
             {
@@ -101,7 +86,6 @@ function fetchMsgs()
                         tempStr.push(data.data[i]);
                     }
                  saveToLocal(tempStr);
-                 //console.log(window['localStorage'].getItem("offlineHolder"));
             }
         });
 }
@@ -121,20 +105,20 @@ function addBox(id, sender, msg)
 
 function updateDisplay()
 {
-    //if(eval(window['localStorage'].getItem("offlineHolder")).length==0)
     if(getFromLocal().length==0)
-    {
         fillUp();
-    }
     else
-    {
         addFromHolder();
-    }    
 }
 
 function getFromLocal()
 {
     return offlineHolder;
+}
+
+function saveToLocal(data)
+{
+    offlineHolder = data;
 }
 
 fetchMsgs();

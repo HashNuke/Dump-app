@@ -8,9 +8,13 @@
 }
 
 .appintroname{
-    margin-top: 125px;
-    font-size: 500%;
+    margin-top: 75px;
+    font-size: 800%;
     color: #660000;
+}
+
+.appnumber{
+    font-size: 500%;
 }
 
 .dumpintro{
@@ -32,7 +36,7 @@
 }
 
 .msgContent{
-    font-family: Georgia;
+    font-family: Arial;
     font-size: 160%;
     border-bottom: 1px solid #cccccc;
     padding: 10px;

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="/stylesheets/app.css" rel="stylesheet"/>
+    <script src="/javascripts/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript">
+      function approveSMS(id){
+        $.get(
+          "/clouds/approve/"+id,
+      function(data)
+      {
+        if(data=="yes")
+          $(".msg"+id).remove();
+      }
+      );
+      }
+
+      function rejectSMS(id)
+      {
+      $.get(
+      "/clouds/reject/"+id,
+      function(data)
+      {
+        if(data=="yes")
+          $(".msg"+id).remove();
+      }
+      );
+      }
+    </script>
+</head>
+<body>
+   <div class="dumpintro">
+         Dump! {9538211877}
+   </div>
+   <div class="container">
+        <%- @msgs.each do |msg| %>
+        <div class="span-24">
+             <div class="span-23">
+                  <p class="msg<%= msg['ID'] %>"><%= msg['TextDecoded'] %>
+                  <br/>
+                  <%= msg['SenderNumber'] %>
+                  &nbsp;&nbsp;&nbsp;<button onclick="javascript:approveSMS(<%= msg['ID'] %>)">Approve</button>
+                  &nbsp;&nbsp;&nbsp;<button onclick="javascript:rejectSMS(<%= msg['ID'] %>)">Reject</button>
+                  </p>
+             </div>
+        </div>
+        <%- end %>
+        <div class="span-24">
+             <p>
+                <%= will_paginate @msgs %>
+             </p>
+        </div>
+   </div>
+</body>
+</html>
