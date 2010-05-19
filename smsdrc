@@ -8,7 +8,7 @@ connection = at19200
 logfile = gammulog
 #logformat = textall
 use_locking = no
-
+ReceiveFrequency = 1
 # When uncomment this section and insert numbers here, smsd will process
 # incoming sms only from numbers written here (incoming sms from all other
 # numbers will be deleted)
@@ -38,8 +38,8 @@ sendtimeout = 30
 #skipsmscnumber = +48602123456
 
 # Database backends congfiguration
-user = root
-password = runningchamp
+user = DBPASS
+password = DBPASS
 pc = localhost
 # pc can also contain port or socket path after colon (eg. localhost:/path/to/socket)
 database = dumpapp

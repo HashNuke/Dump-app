@@ -10,11 +10,10 @@ class CloudsController < ApplicationController
       msg['SenderNumber'][0]=""
       msg['SenderNumber'][1]=""
       msg['SenderNumber'][2]=""
-      msg['SenderNumber'][5]=""
-      msg['SenderNumber'][6]=""
-      msg['SenderNumber'][7]=""
-      msg['SenderNumber'][8]=""
-      msg['SenderNumber'][9]=""
+      msg['SenderNumber'][0]="."
+      msg['SenderNumber'][1]="."
+      msg['SenderNumber'][2]="."
+      msg['SenderNumber'][3]="."
       total_json.push({:id=>msg['ID'], :msg=>msg['TextDecoded'], :sender=>msg['SenderNumber']})
       @each_msg=Inbox.find(msg['ID'])
       @each_msg.id = msg['ID']
