@@ -1,0 +1,40 @@
+h1. Dump app
+
+p. Dump is an SMS dashboard that can be used at offline events to accommodate interaction on huge display screens. I made this for my college day, but never got a chance to run it. (Effects of college politics).
+
+h2. Tech details
+
+p. The app requires gammu and gammu-smsd. Can be downloaded from "gammu.org":http://gammu.org. and also "Rails":http://rubyonrails.org. Gammu-smsd picks up sms from the phone connected to the PC and puts them into the db, It also deletes them from the phone when it's been saved to the db. So this keeps the inbox empty :) The rails app picks these SMSes by querying the db frequently and displays it on the screen with a scroll and fade effect.
+
+h3. Running it
+
+p. Once you get the dependencies listed, create a MySQL database and use the database structure in dump.sql. This only works with MySQL since gammu-smsd dumps all the messages from the phone to MySQL database. It's surely possible to modify it to post to an sqlite db but just changing a few things in the config file smsdrc, but then you'll also have to change the config/database.yml file to reflect the changes (use a database.yml for sqlite :)
+
+p. Fire up your editor and open dump_app/config/database.yml and set the username and password for your mysql database in the development section.
+
+p. Change the mysql username and password and other required stuff in the smsdrc file. This is the config for gammu-smsd. You'll have to use the same credentials you used for the rails db, since both the db are same. Also change the phone config at the top of the same file. Refer to the gammu site linked above for connecting your phone.
+
+p. Change the phone number is dump_app/app/views/layouts/application.erb file (it's been listed as 91xxxxxxx). This is the number to which people would send sms to.
+
+p. Run the rails app by doing a _cd_ to the dump_app dir and running _script/server_ in your command line or _ruby script/server_ if you are on a Windows machine.
+
+p. Connect the phone to the comp and run this in your terminal: gammu-smsd -c path_to_smsdrc
+
+p. Go to http://localhost:3000 in your browser and you shoud see the intro. Click the button and boom, there's your app. 
+
+p. Currently the messages go thru a manage section and are displayed only when they are approved. So visit http://localhost:3000/clouds/manage to approve or reject messages. If you want to disable the approval then edit dump_app/app/controllers/clouds_controller.rb and change the following line:
+
+@@msgs = Inbox.find(:all, :conditions=> {:approved=>"true", :displayed=>"false"}, :limit=>5)@
+
+p. to
+
+@@msgs = Inbox.find(:all, :limit=>5)@
+
+p. If you need all messages to be approved, then you'll have to connect connect the projector to a comp and split the screen so that the approval window isn't displayed on the big screen :)
+
+h4. Enjoy!
+
+p2. Troubleshooting
+
+p. if you aren't sure if the phone is being identified by gammy type: gammu --identify  
+It should show your phone's details. If it does, then your phone is connected.
