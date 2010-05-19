@@ -18,7 +18,7 @@ p. Change the phone number is dump_app/app/views/layouts/application.erb file (i
 
 p. Run the rails app by doing a _cd_ to the dump_app dir and running _script/server_ in your command line or _ruby script/server_ if you are on a Windows machine.
 
-p. Connect the phone to the comp and run this in your terminal: gammu-smsd -c path_to_smsdrc
+p. Connect the phone to the comp and run this in your terminal: _gammu-smsd -c path_to_smsdrc_
 
 p. Go to http://localhost:3000 in your browser and you shoud see the intro. Click the button and boom, there's your app. 
 
@@ -34,7 +34,7 @@ p. If you need all messages to be approved, then you'll have to connect the comp
 
 h4. Enjoy!
 
-p2. Troubleshooting
+h2. Troubleshooting
 
 p. if you aren't sure if the phone is being identified by gammy type: gammu --identify  
 It should show your phone's details. If it does, then your phone is connected.
