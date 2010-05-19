@@ -30,7 +30,7 @@ p. to
 
 @@msgs = Inbox.find(:all, :limit=>5)@
 
-p. If you need all messages to be approved, then you'll have to connect connect the projector to a comp and split the screen so that the approval window isn't displayed on the big screen :)
+p. If you need all messages to be approved, then you'll have to connect the comp to a projector and split the screen so that the approval window isn't displayed on the big screen :) It's also possible to connect via another comp, but a lot better to run both on the same comp. Saves a lot of time.
 
 h4. Enjoy!
 
